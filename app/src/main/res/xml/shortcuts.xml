@@ -1,0 +1,35 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="set_800"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut"
+        android:shortcutShortLabel="Set 800 DP"
+        android:shortcutLongLabel="Set 800 DP">
+        <intent
+            android:action="com.gendex.app.action.SET_800"
+            android:targetPackage="com.gendex.app"
+            android:targetClass="com.gendex.app.MainActivity" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="restore"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut"
+        android:shortcutShortLabel="Restore Previous"
+        android:shortcutLongLabel="Restore Previous">
+        <intent
+            android:action="com.gendex.app.action.RESTORE"
+            android:targetPackage="com.gendex.app"
+            android:targetClass="com.gendex.app.MainActivity" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="developer"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut"
+        android:shortcutShortLabel="Developer Settings"
+        android:shortcutLongLabel="Open Developer Settings">
+        <intent
+            android:action="com.gendex.app.action.DEVELOPER_SETTINGS"
+            android:targetPackage="com.gendex.app"
+            android:targetClass="com.gendex.app.MainActivity" />
+    </shortcut>
+</shortcuts>
