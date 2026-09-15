@@ -38,3 +38,8 @@ Shizuku is a separate prerequisite and is not a VPN. Gen Dex does not embed or i
 Open this folder in Android Studio and let Gradle sync. The project targets API 36, minimum API 23, and uses Jetpack Compose.
 
 The environment used to generate this project did not include a local Gradle/Android SDK installation, so the APK has not been compiled here.
+
+
+## GitHub Actions
+
+The project includes `.github/workflows/main.yml`. On GitHub, open **Actions → Build Gen Dex → Run workflow**. The workflow uses GitHub-hosted Ubuntu runners, Java 17, and Gradle 8.13, then uploads `GenDex-debug-apk`.
