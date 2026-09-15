@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Gen Dex</string>
+    <string name="shortcut_set_800_short">Set 800 DP</string>
+    <string name="shortcut_set_800_long">Set 800 DP</string>
+    <string name="shortcut_restore_short">Restore Previous</string>
+    <string name="shortcut_restore_long">Restore Previous</string>
+    <string name="shortcut_developer_short">Developer Settings</string>
+    <string name="shortcut_developer_long">Open Developer Settings</string>
 </resources>
