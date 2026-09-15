@@ -3,8 +3,8 @@
         android:shortcutId="set_800"
         android:enabled="true"
         android:icon="@drawable/ic_shortcut"
-        android:shortcutShortLabel="Set 800 DP"
-        android:shortcutLongLabel="Set 800 DP">
+        android:shortcutShortLabel="@string/shortcut_set_800_short"
+        android:shortcutLongLabel="@string/shortcut_set_800_long">
         <intent
             android:action="com.gendex.app.action.SET_800"
             android:targetPackage="com.gendex.app"
@@ -14,8 +14,8 @@
         android:shortcutId="restore"
         android:enabled="true"
         android:icon="@drawable/ic_shortcut"
-        android:shortcutShortLabel="Restore Previous"
-        android:shortcutLongLabel="Restore Previous">
+        android:shortcutShortLabel="@string/shortcut_restore_short"
+        android:shortcutLongLabel="@string/shortcut_restore_long">
         <intent
             android:action="com.gendex.app.action.RESTORE"
             android:targetPackage="com.gendex.app"
@@ -25,8 +25,8 @@
         android:shortcutId="developer"
         android:enabled="true"
         android:icon="@drawable/ic_shortcut"
-        android:shortcutShortLabel="Developer Settings"
-        android:shortcutLongLabel="Open Developer Settings">
+        android:shortcutShortLabel="@string/shortcut_developer_short"
+        android:shortcutLongLabel="@string/shortcut_developer_long">
         <intent
             android:action="com.gendex.app.action.DEVELOPER_SETTINGS"
             android:targetPackage="com.gendex.app"
