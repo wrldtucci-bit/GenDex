@@ -1,4 +1,5 @@
 #!/bin/sh
-# Placeholder wrapper launcher. Open the project in Android Studio or generate a standard Gradle wrapper.
-echo "Open this project in Android Studio and sync Gradle, or install Gradle 8.13 and run: gradle wrapper --gradle-version 8.13" >&2
+# Gradle wrapper is intentionally not used by the GitHub Actions workflow.
+# The workflow provisions Gradle 8.13 with gradle/actions/setup-gradle.
+echo "Use the GitHub Actions workflow, or generate a standard Gradle wrapper in Android Studio." >&2
 exit 1
